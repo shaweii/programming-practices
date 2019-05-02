@@ -1,4 +1,4 @@
-print("python 2D multi diamond.")
+print("Python 2D multi diamond.")
 n = int(input("Please enter a number: "))
 m = int(input("Please enter number of rows: "))
 y = int(input("Please enter number of columns: "))
