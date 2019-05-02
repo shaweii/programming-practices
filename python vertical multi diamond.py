@@ -15,7 +15,7 @@ for s in range(1,m+1):
         print("* ", end="")
     print()
 """
-another code for this style.
+Another code for this style.
 print("Python vertical multi diamond.")
 n = int(input("Please enter a number: "))
 m = int(input("Please enter a number for print the number of Vertical rhombuses: "))
