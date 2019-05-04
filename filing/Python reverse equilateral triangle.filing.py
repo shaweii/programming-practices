@@ -1,6 +1,6 @@
-print("Python equilateral triangle.")
+print("Python reverse equilateral triangle.")
 n = int(input("Please enter a number: "))
-f = open("equilateral triangle.txt" ,"w")
+f = open("/Users/sheydaallahweisi/Repos/programming-practices/txt/reverse equilateral triangle.txt" ,"w")
 for i in range(n-1,0,-1):
     for j in range(1,(n-i)+1):
         f.write(" ")
