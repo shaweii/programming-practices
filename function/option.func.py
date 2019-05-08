@@ -60,7 +60,7 @@ for m in range(1,10):
    print("3. Equilateral triangle")
    print("4. Diamond")
    print("---------------------------------")
-   num = int(input("Please choose an option 0-10: "))
+   num = int(input("Please choose an option 0-4: "))
    if num == 0:
       print("Goodbye \n")
       continue   
