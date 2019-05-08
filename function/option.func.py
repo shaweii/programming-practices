@@ -77,6 +77,7 @@ for m in range(1,10):
    elif num == 4:
       print("Diamond")
       print(diamond_reverse(a))  
+   
 
 
     
