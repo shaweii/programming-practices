@@ -10,15 +10,14 @@ def diamond(n):
             x = x + ch + " "
             num = num+1
             if num == 91:
-                num = num -1
-                
+                num = 65      
         for j in range(1, (n-i)+1):
             x = x + " "
         x = x + "\n"
     return x       
 def diamond_reverse(n):
     y = ""
-    num = 89
+    num = 90
     ch = chr(num)
     for i in range(n-1,0,-1):
         for j in range(1,(n-i)+1):
@@ -27,10 +26,12 @@ def diamond_reverse(n):
             ch = chr(num)
             y = y + ch + " "
             num = num - 1
+            if num == 64:
+                num =90
         for j in range(1,(n-i)+1):
             y = y + " "
         y = y + "\n"
-    return diamond(6) + y
-#a = int(input("Enter a number: "))
-print(diamond_reverse(6))
+    return diamond(a) + y
+a = int(input("Enter a number: "))
+print(diamond_reverse(a))
 

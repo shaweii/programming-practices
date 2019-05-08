@@ -6,6 +6,8 @@ def  triangle(n):
             ch = chr(num)
             x = x + ch
             num = num+1
+            if num == 90:
+                num = 65
         x = x + "\n"
             
     return x 
