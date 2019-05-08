@@ -53,14 +53,20 @@ def diamond_reverse(n):
         y = y + "\n"
     return diamond(a) + y
 
+def mullti_dimond_vertical(m):
+    z =""
+    for s in range(1,m+1):
+        z = diamond_reverse(a) + z
+    return z
 
 for m in range(1,10):
    print("1. Triangle")
    print("2. Flipped Triangle")
    print("3. Equilateral triangle")
    print("4. Diamond")
+   print("5. Vertical Multi Diamond")
    print("---------------------------------")
-   num = int(input("Please choose an option 0-4: "))
+   num = int(input("Please choose an option 0-5: "))
    if num == 0:
       print("Goodbye \n")
       continue   
@@ -77,6 +83,10 @@ for m in range(1,10):
    elif num == 4:
       print("Diamond")
       print(diamond_reverse(a))  
+   elif num == 5:
+       b = int(input("Please enter a number for print the number of Vertical rhombuses: "))
+       print("Vertical Multi Diamond")
+       print(mullti_dimond_vertical(b))
    
 
 

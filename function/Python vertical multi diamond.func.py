@@ -1,4 +1,4 @@
-print("Python diamond triangle.")
+print("Python vertical multi diamond.")
 def diamond(n):
     x = ""
     for i in range(1, n+1):
@@ -21,6 +21,11 @@ def diamond_reverse(n):
             y = y + " "
         y = y + "\n"
     return diamond(a) + y
+def mullti_dimond_vertical(m):
+    z =""
+    for s in range(1,m+1):
+        z = diamond_reverse(a) + z
+    return z
 a = int(input("Enter a number: "))
-print(diamond_reverse(a))
-
+b = int(input("Please enter a number for print the number of Vertical rhombuses: "))
+print(mullti_dimond_vertical(b))
