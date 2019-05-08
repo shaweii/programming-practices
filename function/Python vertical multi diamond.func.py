@@ -25,7 +25,8 @@ def mullti_dimond_vertical(m):
     z =""
     for s in range(1,m+1):
         z = diamond_reverse(a) + z
-    return z
+    return z 
+
 a = int(input("Enter a number: "))
 b = int(input("Please enter a number for print the number of Vertical rhombuses: "))
 print(mullti_dimond_vertical(b))
