@@ -6,7 +6,6 @@ def diamond(n):
     x = ""
     for i in range(1, n+1):
         for j in range(1, (n-i)+1):
-            #ch = chr(num)
             x = x + ch + " "
         for k in range(0,2*i-1):
             x = x + "- " 
@@ -18,7 +17,6 @@ def diamond_reverse(n):
     y = ""
     for i in range(n-1,0,-1):
         for j in range(1,(n-i)+1):
-            #ch = chr(num)
             y = y + ch + " "
         for k in range(0,2*i-1):
             y = y + "- " 
